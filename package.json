@@ -1,6 +1,6 @@
 {
   "name": "bing-geocoder",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "description": "Really simple module that encapsulates calls to the Bing geocoder, and handles errors",
   "main": "lib/index.js",
   "scripts": {
@@ -22,7 +22,8 @@
     "url": "https://github.com/goodeggs/bing-geocoder/issues"
   },
   "dependencies": {
-    "request": "~2.30.0"
+    "request": "~2.30.0",
+    "lodash": "~2.4.1"
   },
   "devDependencies": {
     "coffee-script": "~1.6.3"
